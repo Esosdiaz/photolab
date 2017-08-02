@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+}
+.first{
+	background-image: url("../img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 110vh;
+}
+.nav-photo{
+	position: relative;
+	ul{
+		li{
+			display: inline-block;
+			list-style: none;
+			background-color: transparent;
+			font-size: 20px;
+			color: $blanco;
+			cursor: pointer;
+			padding: 45px;
+			a{
+				color: $blanco;
+			}
+			}
+		}
+	}
+
+.textos-photo{
+	padding-top: 30vh;
+		h1{
+			font-size: $titulo;
+			color: $blanco;
+		}
+		p{
+			font-size: $sub-titulo;
+			color: $blanco;
+		}
+		button{
+			@include botones();
+		}
+	}
+
+.third{
+	background-color: $blanco2;
+	@include containers();
+	.represent{
+		h1{
+			@include titulo();
+		}
+		p{
+			font-size: $parrafo;
+		}
+		button{
+			@include botones();
+		}
+	}
+}
+
+.fourth{
+	background-color: $blanco;
+	@include containers();
+	.text-phone{
+		h1{
+			@include titulo();
+		}
+		p{
+			font-size: $parrafo;
+		}
+		button{
+			@include botones();
+		}
+	}
+}
+
+.fifth{
+	background-color: $blanco2;
+	@include containers();
+	h1{
+		@include tituloDos();
+	}
+	p{
+		font-size: $parrafo;
+	}
+}
+
+.sixth{
+	background-image: url("../img/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 110vh;
+	.community{
+		padding-top: 18%;
+		h1{
+			font-size: $titulo;
+			color: $blanco;
+		}
+		ul{
+			li{
+				list-style: none;
+				display: inline-block;
+			button{
+				@include botones();
+				margin-left: -3px;
+				}
+			input{
+				background-color: $blanco;
+				margin: 0px;
+				padding: 20px;
+				border-radius: 3px;
+				border: none;
+				font-weight: 700;
+				margin: 10px;
+				margin-right: -3px;
+			}
+			}
+		}
+	}
+}
+
+.seventh{
+	padding: 0px;
+	margin: 0px;
+	.download{
+		background-color: $blanco2;
+			@include containers();
+		h1{
+			@include tituloDos();
+		}
+		p{
+			font-size: $parrafo;
+		}
+		ul{
+			li{
+				list-style: none;
+				display: inline-block;
+				margin-left: 60px;
+				margin-right: 60px;
+
+			}
+		}
+		button{
+			@include botones();
+		}
+	}
+}
+.footer-photo{
+	background-color: $blanco;
+	div{
+		padding: 30px;
+		ul{
+			li{
+				display: inline-block;
+				list-style: none;
+				color: $verdeBoton;
+				padding-right: 20px;
+				a{
+					text-decoration: none;
+					color: $grisOscuro;
+					cursor: pointer;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}

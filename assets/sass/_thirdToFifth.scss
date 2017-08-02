@@ -1,0 +1,42 @@
+.third{
+	background-color: $blanco2;
+	@include containers();
+	.represent{
+		h1{
+			@include titulo();
+		}
+		p{
+			font-size: $parrafo;
+		}
+		button{
+			@include botones();
+		}
+	}
+}
+
+.fourth{
+	background-color: $blanco;
+	@include containers();
+	.text-phone{
+		h1{
+			@include titulo();
+		}
+		p{
+			font-size: $parrafo;
+		}
+		button{
+			@include botones();
+		}
+	}
+}
+
+.fifth{
+	background-color: $blanco2;
+	@include containers();
+	h1{
+		@include tituloDos();
+	}
+	p{
+		font-size: $parrafo;
+	}
+}
